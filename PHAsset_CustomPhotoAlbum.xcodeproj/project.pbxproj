@@ -15,6 +15,9 @@
 		42FE21E11C8836AC00ECBF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE21DF1C8836AC00ECBF8D /* LaunchScreen.storyboard */; };
 		42FE21EC1C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE21EB1C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumTests.m */; };
 		42FE21F71C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE21F61C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumUITests.m */; };
+		42FE22061C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE22051C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.m */; };
+		42FE22091C88436B00ECBF8D /* 猫猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42FE22071C88436B00ECBF8D /* 猫猫.jpg */; };
+		42FE220A1C88436B00ECBF8D /* bug.mov in Resources */ = {isa = PBXBuildFile; fileRef = 42FE22081C88436B00ECBF8D /* bug.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		42FE21F21C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHAsset_CustomPhotoAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE21F61C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHAsset_CustomPhotoAlbumUITests.m; sourceTree = "<group>"; };
 		42FE21F81C8836AC00ECBF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FE22041C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		42FE22051C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		42FE22071C88436B00ECBF8D /* 猫猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫猫.jpg"; sourceTree = "<group>"; };
+		42FE22081C88436B00ECBF8D /* bug.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bug.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,10 @@
 		42FE21D01C8836AC00ECBF8D /* PHAsset_CustomPhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				42FE22071C88436B00ECBF8D /* 猫猫.jpg */,
+				42FE22081C88436B00ECBF8D /* bug.mov */,
+				42FE22041C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.h */,
+				42FE22051C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.m */,
 				42FE21D41C8836AC00ECBF8D /* AppDelegate.h */,
 				42FE21D51C8836AC00ECBF8D /* AppDelegate.m */,
 				42FE21D71C8836AC00ECBF8D /* ViewController.h */,
@@ -248,7 +259,9 @@
 			files = (
 				42FE21E11C8836AC00ECBF8D /* LaunchScreen.storyboard in Resources */,
 				42FE21DE1C8836AC00ECBF8D /* Assets.xcassets in Resources */,
+				42FE220A1C88436B00ECBF8D /* bug.mov in Resources */,
 				42FE21DC1C8836AC00ECBF8D /* Main.storyboard in Resources */,
+				42FE22091C88436B00ECBF8D /* 猫猫.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FE22061C8836CD00ECBF8D /* PHPhotoLibrary+CustomPhotoAlbum.m in Sources */,
 				42FE21D91C8836AC00ECBF8D /* ViewController.m in Sources */,
 				42FE21D61C8836AC00ECBF8D /* AppDelegate.m in Sources */,
 				42FE21D31C8836AC00ECBF8D /* main.m in Sources */,
